@@ -96,9 +96,11 @@
 <documentation/>
 </functionEntry>
 <functionEntry name="onStart" parent="DF_TorqueAVGApp">
+<param id="state"/>
 <documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry name="onStop" parent="DF_TorqueAVGApp">
+<param id="state"/>
 <documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry name="getInitialView" parent="DF_TorqueAVGApp">
