@@ -1,3 +1,11 @@
+// History:
+//
+// 2017-12-28: Version 1.06
+//
+//		* CIQ 2.41 to support Edge 1030
+//      * 1030 support
+//
+
 using Toybox.Application as App;
 
 class DF_TorqueAVGApp extends App.AppBase {
