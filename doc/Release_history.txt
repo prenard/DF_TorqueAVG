@@ -3,7 +3,9 @@ With this Data Field, you can display average torque value in N-m during your tr
 You can configure the duration of the AVG value in seconds.
 
 Release History:
-
+- V1.05 - 2018-04-30
+* Edge 130 support
+* Edge 520 Plus support
 - V1.04 - 2017-12-28
 * Garmin IQ - SDK 2.4.1
 * Edge 1030 support
