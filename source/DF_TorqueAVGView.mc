@@ -1,10 +1,27 @@
 using Toybox.WatchUi as Ui;
+using Toybox.Graphics as Gfx;
 
-class DF_TorqueAVGView extends Ui.SimpleDataField
+class DF_TorqueAVGView extends Ui.DataField
 {
 
-	var App_Title;
-	var App_Version;
+	//var App_Title;
+	//var App_Version;
+
+	var DF_Title_Text = "";
+	var DF_Title_x = 0;
+	var DF_Title_y = 0;
+	var DF_Title_font = Gfx.FONT_XTINY;
+
+	var Torque_Value = 0;
+	var Torque_Value_x = 0;
+	var Torque_Value_y = 0;
+	var Torque_Value_font = Gfx.FONT_XTINY;
+
+	var Torque_Unit = "Nm";
+	var Torque_Unit_x = 0;
+	var Torque_Unit_y = 0;
+	var Torque_Unit_font = Gfx.FONT_XTINY;
+
 
     var power, cadence, torque;
     
@@ -20,15 +37,14 @@ class DF_TorqueAVGView extends Ui.SimpleDataField
 	var number_of_samples;
 
     //! Set the label of the data field here.
-    function initialize(D,T,V)
+    function initialize(Args)
     {
-        SimpleDataField.initialize();
+		System.println("View - Initialize / Start - Used Memory = " + System.getSystemStats().usedMemory);
+        DataField.initialize();
 
-		App_Title = T;
-		App_Version = V;
-        duration = D;
+        duration = Args[0];
 
-        label = "Torque AVG " + duration + "s";
+   	    DF_Title_Text = "Torque AVG " + duration + "s";
 		
         history_torque = new[duration];
 		
@@ -43,13 +59,14 @@ class DF_TorqueAVGView extends Ui.SimpleDataField
 				history_torque [i] = 0;
 			}
 
+        //TorqueField = new WatchUi.Drawable({:identifier=>"TorqueField"});
+
     }
 
     //! The given info object contains all the current workout
     //! information. Calculate a value and return it in this method.
     function compute(info)
     {
-            var value_picked = null;
 
             if( (info.currentPower != null) and (info.currentCadence != null) )
             {
@@ -78,23 +95,105 @@ class DF_TorqueAVGView extends Ui.SimpleDataField
 					++number_of_samples;
 				}
 
-				//value_picked =  (sum_of_samples / number_of_samples).format("%06.2f");
-				value_picked =  (sum_of_samples / number_of_samples).format("%.2f");
-				if (value_picked == 0)
-					{
-						value_picked = null;
-					}
-					else
-					{
-						//value_picked = value_picked + " N-m";
-					}
+				Torque_Value =  (sum_of_samples / number_of_samples).format("%.2f");
 
-				//System.println("avg = " + value_picked.format("%.2f"));
+				System.println("Torque_Value = " + Torque_Value);				
 				
 				// advance to the next sample, and wrap around to the beginning
 				next_sample_idx = (next_sample_idx + 1) % history_torque.size();
 			}
-        return value_picked;
      }
+
+    function onLayout(dc)
+    {
+		System.println("View - onLayout / Start - Used Memory = " + System.getSystemStats().usedMemory);
+
+    	System.println("DC Height  = " + dc.getHeight());
+      	System.println("DC Width  = " + dc.getWidth());
+
+    	//! The given info object contains all the current workout
+    	//! information. Calculate a value and return it in this method.
+
+		var Font = new [4];
+
+		Font[0] = Gfx.FONT_NUMBER_MILD;
+		Font[1] = Gfx.FONT_NUMBER_MEDIUM;		
+		Font[2] = Gfx.FONT_NUMBER_HOT;
+		Font[3] = Gfx.FONT_NUMBER_THAI_HOT;
+
+		var Value_Pattern = "";
+		
+		Value_Pattern = "888.8";
+
+   		for (var i = Font.size() - 1; i >= 0 ; --i)
+   		{
+			System.println("i = " + i);
+   			Torque_Value_font = Font[i];
+
+			if (
+				(Gfx.getFontHeight(Torque_Value_font) <= dc.getHeight() - Gfx.getFontHeight(DF_Title_font) - 5)
+				&
+				(dc.getTextWidthInPixels(Value_Pattern, Torque_Value_font) <= dc.getWidth() - dc.getTextWidthInPixels(Torque_Unit, Torque_Unit_font) - 6)
+			   )
+			{
+				System.println("Torque_Value - Font = " + i);
+				break;
+			}
+   		}
+
+
+		Torque_Value_x = dc.getTextWidthInPixels(Value_Pattern, Torque_Value_font) ;
+		Torque_Value_y = Gfx.getFontHeight(DF_Title_font);
+
+		System.println("Torque_Value_x = " + Torque_Value_x);
+		System.println("Torque_Value_y = " + Torque_Value_y);
+		
+	   	View.setLayout(Rez.Layouts.MainLayout(dc));
+    }
+
+    function onUpdate(dc)
+    {
+		//System.println("View - onUpdate / Start - Used Memory = " + System.getSystemStats().usedMemory);
+		
+        // Set the background color
+        View.findDrawableById("Background").setColor(getBackgroundColor());
+	
+		var FontDisplayColor = Gfx.COLOR_BLACK;
+        
+        if (getBackgroundColor() == Gfx.COLOR_BLACK)
+        {
+            FontDisplayColor = Gfx.COLOR_WHITE;
+        }
+        else
+        {
+            FontDisplayColor = Gfx.COLOR_BLACK;
+        }
+		
+        // Call parent's onUpdate(dc) to redraw the layout
+        View.onUpdate(dc);
+
+		textL(dc, DF_Title_x, DF_Title_y, DF_Title_font, FontDisplayColor, DF_Title_Text);
+		textR(dc, Torque_Value_x, Torque_Value_y, Torque_Value_font, FontDisplayColor, Torque_Value.toString());
+	}
+
+	function textR(dc, x, y, font, color, s)
+	{
+		if (s != null)
+		{
+			dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+			//dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_RIGHT|Graphics.TEXT_JUSTIFY_VCENTER);
+			dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_RIGHT);
+		}
+	}
+
+	function textL(dc, x, y, font, color, s)
+	{
+		if (s != null)
+		{
+			dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+			//dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
+			dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_LEFT);
+		}
+	}
 
 }

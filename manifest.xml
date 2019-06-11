@@ -2,9 +2,12 @@
     <iq:application entry="DF_TorqueAVGApp" id="B9D2C424F05B4332854AD91B1051BC7A" launcherIcon="@Drawables.LauncherIcon" name="@Strings.AppName" type="datafield">
         <iq:products>
             <iq:product id="edge1030"/>
+            <iq:product id="edge1030bontrager"/>
             <iq:product id="edge130"/>
             <iq:product id="edge520plus"/>
+            <iq:product id="edge530"/>
             <iq:product id="edge820"/>
+            <iq:product id="edge830"/>
             <iq:product id="edge_1000"/>
             <iq:product id="edge_520"/>
         </iq:products>

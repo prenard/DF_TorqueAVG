@@ -3,6 +3,11 @@ With this Data Field, you can display average torque value in N-m during your tr
 You can configure the duration of the AVG value in seconds.
 
 Release History:
+
+- V1.18 - 2019-06-11
+* Add Edge 530 support
+* Add Edge 830 support
+
 - V1.05 - 2018-04-30
 * Edge 130 support
 * Edge 520 Plus support

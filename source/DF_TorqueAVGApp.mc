@@ -8,8 +8,8 @@
 
 using Toybox.Application as App;
 
-class DF_TorqueAVGApp extends App.AppBase {
-
+class DF_TorqueAVGApp extends App.AppBase
+{
     function initialize()
     {
         AppBase.initialize();
@@ -28,13 +28,29 @@ class DF_TorqueAVGApp extends App.AppBase {
     //! Return the initial view of your application here
     function getInitialView()
     {
-		var D, T, V;
-		
-		D = getProperty("AVG_Duration");
-		T  = getProperty("DF_Title");
-		V  = getProperty("App_Version");
+		var Args = new [1];
 
-        return [ new DF_TorqueAVGView(D,T,V) ];
+		Args[0] = readPropertyKeyInt("AVG_Duration",3);
+		
+        return [ new DF_TorqueAVGView(Args) ];
+
     }
+
+	function readPropertyKeyInt(key,thisDefault)
+	{
+		var value = getProperty(key);
+        if(value == null || !(value instanceof Number))
+        {
+        	if(value != null)
+        	{
+            	value = value.toNumber();
+        	}
+        	else
+        	{
+                value = thisDefault;
+        	}
+		}
+		return value;
+	}
 
 }
