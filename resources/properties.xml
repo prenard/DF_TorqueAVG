@@ -1,23 +1,13 @@
 <resources>
 	<properties>
-		<property id="App_Version" type="string">1.01</property>
-    	<property id="DF_Title" type="string">Torque AVG</property>
 	    <property id="AVG_Duration" type="number">3</property>
 	</properties>
 
 	<strings>
-	    <string id="App_Version_Title">Application version</string>
-    	<string id="DF_Title_Title">Data Field Title</string>
 	    <string id="AVG_Duration_Title">AVG Duration</string>
 	</strings>
 	
 	<settings>
-	    <setting propertyKey="@Properties.App_Version" title="@Strings.App_Version_Title">
-	        <settingConfig type="alphaNumeric" readonly="true" />
-	    </setting>
-	    <setting propertyKey="@Properties.DF_Title" title="@Strings.DF_Title_Title">
-	        <settingConfig type="alphaNumeric" readonly="true" />
-	    </setting>
 		<setting propertyKey="@Properties.AVG_Duration" title="@Strings.AVG_Duration_Title">
 	        <settingConfig type="numeric" min="1" max="3600" />
 	    </setting>

@@ -142,7 +142,8 @@ class DF_TorqueAVGView extends Ui.DataField
    		}
 
 
-		Torque_Value_x = dc.getTextWidthInPixels(Value_Pattern, Torque_Value_font) ;
+		//Torque_Value_x = dc.getTextWidthInPixels(Value_Pattern, Torque_Value_font) ;
+		Torque_Value_x = dc.getWidth() / 2;
 		Torque_Value_y = Gfx.getFontHeight(DF_Title_font);
 
 		System.println("Torque_Value_x = " + Torque_Value_x);
@@ -172,10 +173,14 @@ class DF_TorqueAVGView extends Ui.DataField
         // Call parent's onUpdate(dc) to redraw the layout
         View.onUpdate(dc);
 
-		textL(dc, DF_Title_x, DF_Title_y, DF_Title_font, FontDisplayColor, DF_Title_Text);
-		textR(dc, Torque_Value_x, Torque_Value_y, Torque_Value_font, FontDisplayColor, Torque_Value.toString());
+		//textL(dc, DF_Title_x, DF_Title_y, DF_Title_font, FontDisplayColor, DF_Title_Text);
+		//textC(dc, Torque_Value_x, Torque_Value_y, Torque_Value_font, FontDisplayColor, Torque_Value.toString());
+		textJ(dc, DF_Title_x, DF_Title_y, DF_Title_font, FontDisplayColor, Graphics.TEXT_JUSTIFY_LEFT,DF_Title_Text);
+		textJ(dc, Torque_Value_x, Torque_Value_y, Torque_Value_font, FontDisplayColor, Graphics.TEXT_JUSTIFY_CENTER,Torque_Value.toString());
+
 	}
 
+/*
 	function textR(dc, x, y, font, color, s)
 	{
 		if (s != null)
@@ -193,6 +198,26 @@ class DF_TorqueAVGView extends Ui.DataField
 			dc.setColor(color, Gfx.COLOR_TRANSPARENT);
 			//dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
 			dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_LEFT);
+		}
+	}
+
+	function textC(dc, x, y, font, color, s)
+	{
+		if (s != null)
+		{
+			dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+			//dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
+			dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_CENTER);
+		}
+	}
+*/
+	function textJ(dc, x, y, font, color, justify, s)
+	{
+		if (s != null)
+		{
+			dc.setColor(color, Gfx.COLOR_TRANSPARENT);
+			//dc.drawText(x, y, font, s, Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
+			dc.drawText(x, y, font, s, justify);
 		}
 	}
 
