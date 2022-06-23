@@ -4,6 +4,11 @@ You can configure the duration of the AVG value in seconds.
 
 Release History:
 
+- V1.07-2 - 2022-06-23
+* Add Edge 130 Plus support
+* Add Edge 1030 Plus support
+* Add Edge 1040 support
+
 - V1.07 - 2019-06-24
 * Fix display justification
 - V1.06 - 2019-06-11

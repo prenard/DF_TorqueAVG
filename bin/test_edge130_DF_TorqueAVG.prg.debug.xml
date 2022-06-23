@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\admin\Box\PR-D\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="1" lineNum="13" parent="globals/DF_TorqueAVGApp" pc="268435456" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="1" lineNum="15" parent="globals/DF_TorqueAVGApp" pc="268435460" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="2" lineNum="19" parent="globals/DF_TorqueAVGApp" pc="268435479" symbol="onStart"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="3" lineNum="24" parent="globals/DF_TorqueAVGApp" pc="268435484" symbol="onStop"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="4" lineNum="29" parent="globals/DF_TorqueAVGApp" pc="268435489" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="4" lineNum="31" parent="globals/DF_TorqueAVGApp" pc="268435493" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="4" lineNum="33" parent="globals/DF_TorqueAVGApp" pc="268435501" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="4" lineNum="35" parent="globals/DF_TorqueAVGApp" pc="268435530" symbol="getInitialView"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="5" lineNum="39" parent="globals/DF_TorqueAVGApp" pc="268435570" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="5" lineNum="41" parent="globals/DF_TorqueAVGApp" pc="268435574" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="5" lineNum="42" parent="globals/DF_TorqueAVGApp" pc="268435589" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="5" lineNum="44" parent="globals/DF_TorqueAVGApp" pc="268435614" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="5" lineNum="46" parent="globals/DF_TorqueAVGApp" pc="268435621" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="5" lineNum="50" parent="globals/DF_TorqueAVGApp" pc="268435637" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="5" lineNum="53" parent="globals/DF_TorqueAVGApp" pc="268435644" symbol="readPropertyKeyInt"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="6" lineNum="11" parent="globals/DF_TorqueAVGApp" pc="268437471" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGApp.mc" id="6" lineNum="11" parent="globals/DF_TorqueAVGApp" pc="268437471" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="8" lineNum="10" parent="globals/Background" pc="268435648" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="8" lineNum="12" parent="globals/Background" pc="268435652" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="8" lineNum="16" parent="globals/Background" pc="268435673" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="9" lineNum="19" parent="globals/Background" pc="268435694" symbol="setColor"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="9" lineNum="21" parent="globals/Background" pc="268435698" symbol="setColor"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="10" lineNum="24" parent="globals/Background" pc="268435709" symbol="draw"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="10" lineNum="26" parent="globals/Background" pc="268435713" symbol="draw"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="10" lineNum="27" parent="globals/Background" pc="268435745" symbol="draw"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268437427" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGBackground.mc" id="11" lineNum="5" parent="globals/Background" pc="268437427" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="40" parent="globals/DF_TorqueAVGView" pc="268435758" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="42" parent="globals/DF_TorqueAVGView" pc="268435762" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="43" parent="globals/DF_TorqueAVGView" pc="268435809" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="45" parent="globals/DF_TorqueAVGView" pc="268435827" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="47" parent="globals/DF_TorqueAVGView" pc="268435843" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="49" parent="globals/DF_TorqueAVGView" pc="268435871" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="53" parent="globals/DF_TorqueAVGView" pc="268435888" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="54" parent="globals/DF_TorqueAVGView" pc="268435901" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="55" parent="globals/DF_TorqueAVGView" pc="268435914" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="57" parent="globals/DF_TorqueAVGView" pc="268435927" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="13" lineNum="59" parent="globals/DF_TorqueAVGView" pc="268435957" symbol="initialize"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="68" parent="globals/DF_TorqueAVGView" pc="268435987" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="71" parent="globals/DF_TorqueAVGView" pc="268435991" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="74" parent="globals/DF_TorqueAVGView" pc="268436020" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="75" parent="globals/DF_TorqueAVGView" pc="268436045" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="77" parent="globals/DF_TorqueAVGView" pc="268436061" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="78" parent="globals/DF_TorqueAVGView" pc="268436074" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="80" parent="globals/DF_TorqueAVGView" pc="268436091" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="84" parent="globals/DF_TorqueAVGView" pc="268436146" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="87" parent="globals/DF_TorqueAVGView" pc="268436177" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="90" parent="globals/DF_TorqueAVGView" pc="268436202" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="93" parent="globals/DF_TorqueAVGView" pc="268436233" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="95" parent="globals/DF_TorqueAVGView" pc="268436262" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="98" parent="globals/DF_TorqueAVGView" pc="268436284" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="100" parent="globals/DF_TorqueAVGView" pc="268436323" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="14" lineNum="103" parent="globals/DF_TorqueAVGView" pc="268436355" symbol="compute"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="107" parent="globals/DF_TorqueAVGView" pc="268436399" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="109" parent="globals/DF_TorqueAVGView" pc="268436403" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="111" parent="globals/DF_TorqueAVGView" pc="268436450" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="112" parent="globals/DF_TorqueAVGView" pc="268436485" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="117" parent="globals/DF_TorqueAVGView" pc="268436520" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="119" parent="globals/DF_TorqueAVGView" pc="268436528" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="120" parent="globals/DF_TorqueAVGView" pc="268436548" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="121" parent="globals/DF_TorqueAVGView" pc="268436568" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="122" parent="globals/DF_TorqueAVGView" pc="268436588" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="124" parent="globals/DF_TorqueAVGView" pc="268436608" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="126" parent="globals/DF_TorqueAVGView" pc="268436615" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="128" parent="globals/DF_TorqueAVGView" pc="268436622" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="130" parent="globals/DF_TorqueAVGView" pc="268436652" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="131" parent="globals/DF_TorqueAVGView" pc="268436678" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="133" parent="globals/DF_TorqueAVGView" pc="268436691" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="139" parent="globals/DF_TorqueAVGView" pc="268436827" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="140" parent="globals/DF_TorqueAVGView" pc="268436853" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="146" parent="globals/DF_TorqueAVGView" pc="268436872" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="147" parent="globals/DF_TorqueAVGView" pc="268436897" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="149" parent="globals/DF_TorqueAVGView" pc="268436928" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="150" parent="globals/DF_TorqueAVGView" pc="268436960" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="15" lineNum="152" parent="globals/DF_TorqueAVGView" pc="268436992" symbol="onLayout"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="155" parent="globals/DF_TorqueAVGView" pc="268437036" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="160" parent="globals/DF_TorqueAVGView" pc="268437040" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="162" parent="globals/DF_TorqueAVGView" pc="268437083" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="164" parent="globals/DF_TorqueAVGView" pc="268437097" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="166" parent="globals/DF_TorqueAVGView" pc="268437124" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="170" parent="globals/DF_TorqueAVGView" pc="268437141" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="174" parent="globals/DF_TorqueAVGView" pc="268437155" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="178" parent="globals/DF_TorqueAVGView" pc="268437175" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="16" lineNum="179" parent="globals/DF_TorqueAVGView" pc="268437237" symbol="onUpdate"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="17" lineNum="214" parent="globals/DF_TorqueAVGView" pc="268437309" symbol="textJ"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="17" lineNum="216" parent="globals/DF_TorqueAVGView" pc="268437313" symbol="textJ"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="17" lineNum="218" parent="globals/DF_TorqueAVGView" pc="268437320" symbol="textJ"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="17" lineNum="220" parent="globals/DF_TorqueAVGView" pc="268437346" symbol="textJ"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="18" lineNum="4" parent="globals/DF_TorqueAVGView" pc="268437490" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="18" lineNum="13" parent="globals/DF_TorqueAVGView" pc="268437508" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="18" lineNum="18" parent="globals/DF_TorqueAVGView" pc="268437528" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="18" lineNum="23" parent="globals/DF_TorqueAVGView" pc="268437548" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\admin\\Box\\PR-D\\VisualStudioCode\\data\\Garmin-CIQ\\DF_TorqueAVG\\source\\DF_TorqueAVGView.mc" id="18" lineNum="4" parent="globals/DF_TorqueAVGView" pc="268437490" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="20" lineNum="2" parent="globals/Rez/Drawables" pc="268437465" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="21" lineNum="6" parent="globals/Rez/Fonts" pc="268437467" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="22" lineNum="8" parent="globals/Rez/JsonData" pc="268437469" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="23" lineNum="17" parent="globals/Rez/Layouts" pc="268437372" symbol="MainLayout"/>
+<entry filename="Rez" id="23" lineNum="20" parent="globals/Rez/Layouts" pc="268437384" symbol="MainLayout"/>
+<entry filename="Rez" id="23" lineNum="22" parent="globals/Rez/Layouts" pc="268437408" symbol="MainLayout"/>
+<entry filename="Rez" id="24" lineNum="10" parent="globals/Rez/Layouts" pc="268437468" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="25" lineNum="27" parent="globals/Rez/Menus" pc="268437466" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="26" lineNum="29" parent="globals/Rez/Strings" pc="268437470" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="27" lineNum="1" parent="globals/Rez" pc="268437446" symbol="&lt;init&gt;"/>
+<entry filename="Rez" id="27" lineNum="1" parent="globals/Rez" pc="268437446" symbol="&lt;init&gt;"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="32" symbol="next_sample_idx"/>
+<entry field="true" id="33" symbol="sum_of_samples"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="4" module="true" symbol="globals/Rez/Menus"/>
+<entry id="14" method="true" symbol="MainLayout"/>
+<entry field="true" id="21" symbol="DF_Title_font"/>
+<entry field="true" id="31" symbol="history_torque"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="26" symbol="Torque_Unit"/>
+<entry field="true" id="16" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="15" symbol="AVG_Duration_Title"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="8388935" method="true" symbol="duration"/>
+<entry field="true" id="29" symbol="Torque_Unit_font"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry field="true" id="30" symbol="torque"/>
+<entry field="true" id="8388959" symbol="cadence"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="10" object="true" symbol="DF_TorqueAVGView"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="34" symbol="number_of_samples"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry id="8389131" method="true" symbol="setColor"/>
+<entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+<entry field="true" id="24" symbol="Torque_Value_y"/>
+<entry field="true" id="23" symbol="Torque_Value_x"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="20" symbol="DF_Title_y"/>
+<entry field="true" id="19" symbol="DF_Title_x"/>
+<entry id="9" object="true" symbol="DF_TorqueAVGApp"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="25" symbol="Torque_Value_font"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="8389130" symbol="mColor"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="35" method="true" symbol="textJ"/>
+<entry id="17" method="true" symbol="readPropertyKeyInt"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry field="true" id="28" symbol="Torque_Unit_y"/>
+<entry field="true" id="27" symbol="Torque_Unit_x"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="8388961" symbol="power"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry field="true" id="22" symbol="Torque_Value"/>
+<entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+<entry field="true" id="18" symbol="DF_Title_Text"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435483" name="state" stackId="1" startPc="268435479"/>
+<entry arg="true" endPc="268435488" name="state" stackId="1" startPc="268435484"/>
+<entry endPc="268435568" name="Args" stackId="1" startPc="268435493"/>
+<entry endPc="268435646" name="value" stackId="3" startPc="268435574"/>
+<entry arg="true" endPc="268435647" name="thisDefault" stackId="2" startPc="268435570"/>
+<entry arg="true" endPc="268435647" name="key" stackId="1" startPc="268435570"/>
+<entry endPc="268435692" name="dictionary" stackId="1" startPc="268435652"/>
+<entry arg="true" endPc="268435708" name="color" stackId="1" startPc="268435694"/>
+<entry arg="true" endPc="268435757" name="dc" stackId="1" startPc="268435709"/>
+<entry endPc="268435985" name="i" stackId="2" startPc="268435957"/>
+<entry arg="true" endPc="268435986" name="Args" stackId="1" startPc="268435758"/>
+<entry arg="true" endPc="268436398" name="info" stackId="1" startPc="268435987"/>
+<entry endPc="268436871" name="i" stackId="4" startPc="268436652"/>
+<entry endPc="268437034" name="Value_Pattern" stackId="3" startPc="268436403"/>
+<entry endPc="268437034" name="Font" stackId="2" startPc="268436403"/>
+<entry arg="true" endPc="268437035" name="dc" stackId="1" startPc="268436399"/>
+<entry endPc="268437307" name="FontDisplayColor" stackId="2" startPc="268437040"/>
+<entry arg="true" endPc="268437308" name="dc" stackId="1" startPc="268437036"/>
+<entry arg="true" endPc="268437371" name="x" stackId="2" startPc="268437309"/>
+<entry arg="true" endPc="268437371" name="dc" stackId="1" startPc="268437309"/>
+<entry arg="true" endPc="268437371" name="justify" stackId="6" startPc="268437309"/>
+<entry arg="true" endPc="268437371" name="color" stackId="5" startPc="268437309"/>
+<entry arg="true" endPc="268437371" name="font" stackId="4" startPc="268437309"/>
+<entry arg="true" endPc="268437371" name="s" stackId="7" startPc="268437309"/>
+<entry arg="true" endPc="268437371" name="y" stackId="3" startPc="268437309"/>
+<entry endPc="268437424" name="rez_cmp_local_custom_drawable_17662636681685706770" stackId="2" startPc="268437384"/>
+<entry arg="true" endPc="268437425" name="dc" stackId="1" startPc="268437372"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AVG_Duration_Title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Background" offset="158" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry label="globals/Rez" offset="229" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="308" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="347" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="378" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="409" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="448" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="479" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/DF_TorqueAVGApp" offset="526" parentId="globals" symbolId="DF_TorqueAVGApp" type="class"/>
+<dataEntry label="globals/DF_TorqueAVGView" offset="605" parentId="globals" symbolId="DF_TorqueAVGView" type="class"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="initialize" parent="DF_TorqueAVGApp" startPc="268435456">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435483" name="onStart" parent="DF_TorqueAVGApp" startPc="268435479">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStart() is called on application start up<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435488" name="onStop" parent="DF_TorqueAVGApp" startPc="268435484">
+<param id="state"/>
+<documentation><![CDATA[<div class="description"> onStop() is called when your application is exiting<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435569" name="getInitialView" parent="DF_TorqueAVGApp" startPc="268435489">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435647" name="readPropertyKeyInt" parent="DF_TorqueAVGApp" startPc="268435570">
+<param id="key"/>
+<param id="thisDefault"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437489" name="&lt;init&gt;" parent="DF_TorqueAVGApp" startPc="268437471">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435693" name="initialize" parent="Background" startPc="268435648">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435708" name="setColor" parent="Background" startPc="268435694">
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435757" name="draw" parent="Background" startPc="268435709">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437445" name="&lt;init&gt;" parent="Background" startPc="268437427">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435986" name="initialize" parent="DF_TorqueAVGView" startPc="268435758">
+<param id="Args"/>
+<documentation><![CDATA[<div class="description"> Set the label of the data field here.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436398" name="compute" parent="DF_TorqueAVGView" startPc="268435987">
+<param id="info"/>
+<documentation><![CDATA[<div class="description"> The given info object contains all the current workout<br/> information. Calculate a value and return it in this method.<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437035" name="onLayout" parent="DF_TorqueAVGView" startPc="268436399">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437308" name="onUpdate" parent="DF_TorqueAVGView" startPc="268437036">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437371" name="textJ" parent="DF_TorqueAVGView" startPc="268437309">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="font"/>
+<param id="color"/>
+<param id="justify"/>
+<param id="s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437568" name="&lt;init&gt;" parent="DF_TorqueAVGView" startPc="268437490">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437465" name="&lt;init&gt;" parent="Drawables" startPc="268437465">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437467" name="&lt;init&gt;" parent="Fonts" startPc="268437467">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437469" name="&lt;init&gt;" parent="JsonData" startPc="268437469">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437425" name="MainLayout" parent="Layouts" startPc="268437372">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437468" name="&lt;init&gt;" parent="Layouts" startPc="268437468">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437466" name="&lt;init&gt;" parent="Menus" startPc="268437466">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437470" name="&lt;init&gt;" parent="Strings" startPc="268437470">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="protected" endPc="268437464" name="&lt;init&gt;" parent="Rez" startPc="268437446">
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
