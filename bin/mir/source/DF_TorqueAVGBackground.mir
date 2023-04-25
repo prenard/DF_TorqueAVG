@@ -1,0 +1,65 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 5; ]
+class Background extends Ui.Drawable{
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 8; @position = 15; ]
+    protected
+    var mColor;
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 10; ]
+    function initialize() as Void {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_11_4_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc" 12 8 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_11_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_11_4_stop" ]
+        %dictionary.1 = local;
+        %tmp.1 = newd 1;
+        %tmp.3 = const :identifier;
+        %tmp.4 = "Background";
+        %tmp.5 = dup %tmp.1;
+        %tmp.6 = aputv %tmp.5 %tmp.3 %tmp.4;
+        lputv %dictionary.1 %tmp.6;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc" 16 8 ]
+        %tmp.8 = getv ? :Drawable;
+        %tmp.9 = getv function %tmp.8 :initialize;
+        %tmp.11 = lgetv %dictionary.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_11_4_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 19; ]
+    function setColor(color) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_20_4_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc" 21 8 ]
+        %tmp.2 = lgetv %color;
+        putv self :mColor %tmp.2;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_20_4_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 24; ]
+    function draw(dc) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_25_4_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc" 26 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_TRANSPARENT;
+        %tmp.6 = getv ? :mColor;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc" 27 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :clear;
+        invoke %tmp.7 %tmp.8();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGBackground_mc_25_4_stop:
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGBackground.mc"; @line = 1; ]
+<init> {
+}

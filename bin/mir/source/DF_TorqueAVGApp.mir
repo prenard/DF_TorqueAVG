@@ -1,0 +1,140 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 9; ]
+using Toybox.Application as :App;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 11; @position = 4; ]
+var AppVersion = "1.07-03";
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 13; ]
+class DF_TorqueAVGApp extends App.AppBase{
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 13; ]
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 13; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 15; ]
+    function initialize() as Void {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_16_4_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 17 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_16_4_stop:
+    }
+    //! onStart() is called on application start up
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 21; ]
+    function onStart(state) {
+    }
+    //! onStop() is called when your application is exiting
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 26; ]
+    function onStop(state) {
+    }
+    //! Return the initial view of your application here
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 31; ]
+    function getInitialView() {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_32_4_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 34 2 ]
+        %tmp.2 = getv ? :System;
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "AppVersion = ";
+        %tmp.6 = getv ? :AppVersion;
+        %tmp.7 = add %tmp.4 %tmp.6;
+        invoke %tmp.2 %tmp.3(%tmp.7);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 35 2 ]
+        %tmp.8 = self;
+        %tmp.9 = getv function %tmp.8 :setProperty;
+        %tmp.10 = "App_Version";
+        %tmp.12 = getv ? :AppVersion;
+        invoke %tmp.8 %tmp.9(%tmp.10, %tmp.12);
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 37 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_32_4_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_32_4_stop" ]
+        %Args.1 = local;
+        %tmp.14 = 1;
+        %tmp.13 = newa %tmp.14;
+        lputv %Args.1 %tmp.13;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 39 2 ]
+        %tmp.15 = lgetv %Args.1;
+        %tmp.16 = self;
+        %tmp.17 = getv function %tmp.16 :readPropertyKeyInt;
+        %tmp.18 = "AVG_Duration";
+        %tmp.19 = 3;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.18, %tmp.19);
+        %tmp.21 = 0;
+        aputv %tmp.15 %tmp.21 %tmp.20;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 41 8 ]
+        %tmp.22 = newa 1;
+        %tmp.26 = getv ? :DF_TorqueAVGView;
+        %tmp.28 = lgetv %Args.1;
+        %tmp.23 = newc %tmp.26 (%tmp.28);
+        %tmp.29 = dup %tmp.22;
+        %tmp.30 = aputv %tmp.29 0 %tmp.23;
+        ret %tmp.30;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_32_4_stop:
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 45; ]
+    function readPropertyKeyInt(key, thisDefault) {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_46_1_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 47 2 ]
+        [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_46_1_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_46_1_stop" ]
+        %value.1 = local;
+        %tmp.1 = self;
+        %tmp.2 = getv function %tmp.1 :getProperty;
+        %tmp.4 = lgetv %key;
+        %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.4);
+        lputv %value.1 %tmp.5;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 48 8 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_8_if_stmt:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_11_begin:
+        %tmp.7 = lgetv %value.1;
+        %tmp.8 = null;
+        %tmp.9 = eq %tmp.7 %tmp.8;
+        %tmp.10 = dup %tmp.9;
+        bt %tmp.10 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_28_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_28_false:
+        %tmp.12 = lgetv %value.1;
+        %tmp.13 = as %tmp.12 { (!Null) };
+        %tmp.15 = getv ? :Number;
+        %tmp.16 = isa %tmp.13 %tmp.15;
+        %tmp.17 = not %tmp.16;
+        %tmp.18 = or %tmp.9 %tmp.17;
+        push %tmp.18;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_28_end:
+        %tmp.19 = phi [%tmp.10 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_11_begin] [%tmp.18 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_28_false] [%tmp.19 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_28_end];
+        bf %tmp.19 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_8_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_8_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_49_8_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 50 9 ]
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_50_9_if_stmt:
+        %tmp.21 = lgetv %value.1;
+        %tmp.22 = as %tmp.21 { (Null || !(Number)) };
+        %tmp.23 = null;
+        %tmp.24 = ne %tmp.22 %tmp.23;
+        bf %tmp.24 @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_50_9_if_false;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_50_9_if_true:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_51_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 52 13 ]
+        %tmp.25 = lgetv %value.1;
+        %tmp.26 = as %tmp.25 { (!Null) && (Null || !(Number)) };
+        %tmp.27 = getv function %tmp.26 :toNumber;
+        %tmp.28 = invoke %tmp.26 %tmp.27();
+        lputv %value.1 %tmp.28;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_51_9_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_50_9_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_50_9_if_false:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_55_9_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 56 16 ]
+        %tmp.30 = lgetv %thisDefault;
+        lputv %value.1 %tmp.30;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_55_9_stop:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_50_9_if_end:
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_49_8_stop:
+        goto @C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_8_if_end;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_48_8_if_end:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc" 59 2 ]
+        %tmp.32 = lgetv %value.1;
+        ret %tmp.32;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_source_DF_TorqueAVGApp_mc_46_1_stop:
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\source\DF_TorqueAVGApp.mc"; @line = 9; ]
+<init> {
+}

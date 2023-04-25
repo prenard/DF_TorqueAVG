@@ -1,0 +1,1207 @@
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var LauncherIcon as Symbol;
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 12; ]
+    module Fonts {
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 15; ]
+    module JsonData {
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 15; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 18; ]
+    module Layouts {
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 18; ]
+        <init> {
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 19; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_bin_gen_006_B4062_00_source_Rez_mcgen_19_74_start:
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 20 12 ]
+            [ "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_bin_gen_006_B4062_00_source_Rez_mcgen_19_74_start" "C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_bin_gen_006_B4062_00_source_Rez_mcgen_19_74_stop" ]
+            %rez_cmp_local_custom_drawable_11675208311628193591.1 = local;
+            %tmp.4 = getv ? :Background;
+            %tmp.1 = newc %tmp.4 ();
+            lputv %rez_cmp_local_custom_drawable_11675208311628193591.1 %tmp.1;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 22 12 ]
+            %tmp.5 = newa Array<WatchUi.Drawable> 1;
+            %tmp.7 = lgetv %rez_cmp_local_custom_drawable_11675208311628193591.1;
+            %tmp.8 = dup %tmp.5;
+            %tmp.9 = aputv %tmp.8 0 %tmp.7;
+            ret %tmp.9;
+C_Users_admin_OneDrive___kyndryl_Patrick_Renard_Private_Box_VisualStudioCode_data_Garmin_CIQ_DF_TorqueAVG_bin_gen_006_B4062_00_source_Rez_mcgen_19_74_stop:
+        }
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 26; ]
+    module Menus {
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 26; ]
+        <init> {
+        }
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 29; ]
+    module Strings {
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 29; ]
+        <init> {
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 30; @position = 27; initialized = true; ]
+        var AVG_Duration_Title as Symbol;
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 31; @position = 27; initialized = true; ]
+        var App_Version_Title as Symbol;
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 32; @position = 27; initialized = true; ]
+        var AppName as Symbol;
+    }
+    [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 35; ]
+    module Styles {
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 35; ]
+        <init> {
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 36; ]
+        module system_size__menu_header {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 36; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 37; @position = 18; ]
+            const height as Number = 0;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 40; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 40; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 41; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 44; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 44; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 45; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 48; ]
+        module prompt_loc__body_no_title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 48; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 49; @position = 18; ]
+            const x as Number = 8;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 50; @position = 18; ]
+            const y as Number = 14;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 53; ]
+        module system_icon_dark__about {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 53; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 54; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__about.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 55; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 56; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 57; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 60; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 60; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 61; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 64; ]
+        module confirmation_color_dark__body {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 64; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 66 18 ]
+                %tmp.10 = getm $.Toybox.Graphics;
+                %tmp.11 = getv %tmp.10 :COLOR_TRANSPARENT;
+                putv self :background %tmp.11;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 65; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 66; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 69; ]
+        module system_icon_light__question {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 69; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 70; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__question.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 71; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 72; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 73; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 76; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 76; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 77; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 80; ]
+        module prompt_font__title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 80; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 81; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 84; ]
+        module system_icon_dark__discard {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 85; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__discard.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 86; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 87; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 88; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 91; ]
+        module system_size__menu_item {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 91; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 92; @position = 18; ]
+            const width as Number = 246;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 93; @position = 18; ]
+            const height as Number = 70;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 96; ]
+        module prompt_color_dark__title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 96; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 98 18 ]
+                %tmp.12 = getm $.Toybox.Graphics;
+                %tmp.13 = getv %tmp.12 :COLOR_TRANSPARENT;
+                putv self :background %tmp.13;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 97; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 98; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 101; ]
+        module system_icon_destructive__cancel {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 101; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 102; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_destructive__cancel.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 103; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 104; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 105; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 108; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 108; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 109; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 112; ]
+        module system_color_dark__text {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 114 18 ]
+                %tmp.14 = getm $.Toybox.Graphics;
+                %tmp.15 = getv %tmp.14 :COLOR_TRANSPARENT;
+                putv self :background %tmp.15;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 113; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 114; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 117; ]
+        module system_icon_destructive__discard {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 117; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_destructive__discard.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 119; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 120; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 121; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 124; ]
+        module prompt_loc__title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 124; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 125; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 128; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 128; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 129; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 132; ]
+        module prompt_color_light__title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 132; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 134 18 ]
+                %tmp.16 = getm $.Toybox.Graphics;
+                %tmp.17 = getv %tmp.16 :COLOR_TRANSPARENT;
+                putv self :background %tmp.17;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 133; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 134; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 137; ]
+        module prompt_size__title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 137; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 138; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 141; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 141; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 142; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 145; ]
+        module confirmation_font__body {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 145; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 146 18 ]
+                %tmp.18 = getm $.Toybox.Graphics;
+                %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_CENTER;
+                %tmp.20 = getm $.Toybox.Graphics;
+                %tmp.21 = getv %tmp.20 :TEXT_JUSTIFY_VCENTER;
+                %tmp.22 = bitor %tmp.19 %tmp.21;
+                putv self :justification %tmp.22;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 147 18 ]
+                %tmp.23 = getm $.Toybox.Graphics;
+                %tmp.24 = getv %tmp.23 :FONT_MEDIUM;
+                putv self :font %tmp.24;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 146; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 147; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 150; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 150; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 151; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 154; ]
+        module system_color_dark__background {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 154; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 155; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 156; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 159; ]
+        module system_icon_light__cancel {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 159; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 160; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__cancel.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 161; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 163; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 166; ]
+        module system_size__launch_icon {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 166; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 167; @position = 18; ]
+            const scaleX as Number = 35;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 168; @position = 18; ]
+            const scaleY as Number = 35;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 169; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 172; ]
+        module confirmation_input__confirm {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 173 18 ]
+                %tmp.25 = getm $.Toybox.WatchUi;
+                %tmp.26 = getv %tmp.25 :KEY_ENTER;
+                putv self :button %tmp.26;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 173; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 176; ]
+        module system_icon_light__about {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 177; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__about.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 178; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 179; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 180; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 183; ]
+        module system_size__toast_icon {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 183; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 184; @position = 18; ]
+            const scaleX as Number = 32;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 185; @position = 18; ]
+            const scaleY as Number = 32;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 186; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 189; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 189; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 190; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\confirmation_icon__hint_x.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 191; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 192; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 193; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 196; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 197; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 200; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 200; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 201; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 204; ]
+        module prompt_font__body_with_title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 204; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 205 18 ]
+                %tmp.27 = getm $.Toybox.Graphics;
+                %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_CENTER;
+                %tmp.29 = getm $.Toybox.Graphics;
+                %tmp.30 = getv %tmp.29 :TEXT_JUSTIFY_VCENTER;
+                %tmp.31 = bitor %tmp.28 %tmp.30;
+                putv self :justification %tmp.31;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 206 18 ]
+                %tmp.32 = getm $.Toybox.Graphics;
+                %tmp.33 = getv %tmp.32 :FONT_MEDIUM;
+                putv self :font %tmp.33;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 205; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 206; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 209; ]
+        module confirmation_loc__body {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 209; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 210; @position = 18; ]
+            const x as Number = 1;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 211; @position = 18; ]
+            const y as Number = 23;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 214; ]
+        module prompt_color_dark__background {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 214; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 215; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 216; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 219; ]
+        module system_loc__hint_action_menu {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 219; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 220; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 223; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 223; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 224; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 225; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 226; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 227; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 230; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 230; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 231; @position = 18; ]
+            const x as Number = 214;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 232; @position = 18; ]
+            const y as Number = 249;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 233; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 234; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 237; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 237; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 241; ]
+        module activity_color_dark__background {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 241; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 243; @position = 18; ]
+            const background as Number = 0x000000;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 246; ]
+        module prompt_size__body_no_title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 246; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 247; @position = 18; ]
+            const width as Number = 230;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 248; @position = 18; ]
+            const height as Number = 225;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 251; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 251; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 252; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 255; ]
+        module system_size__menu_icon {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 255; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            const scaleX as Number = 40;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 257; @position = 18; ]
+            const scaleY as Number = 40;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 258; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 261; ]
+        module system_icon_destructive__warning {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 261; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 262; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_destructive__warning.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 263; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 264; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 268; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 268; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 269; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 272; ]
+        module prompt_color_light__background {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 272; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 273; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 274; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 277; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 277; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 278; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 281; ]
+        module system_icon_dark__cancel {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 281; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 282; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__cancel.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 283; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 284; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 285; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 288; ]
+        module confirmation_input__delete {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 288; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 289 18 ]
+                %tmp.34 = getm $.Toybox.WatchUi;
+                %tmp.35 = getv %tmp.34 :KEY_ESC;
+                putv self :button %tmp.35;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 289; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 292; ]
+        module prompt_size__body_with_title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 292; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 293; @position = 18; ]
+            const width as Number = 230;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 294; @position = 18; ]
+            const height as Number = 135;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 297; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 297; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 298; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 301; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 301; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 302; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 305; ]
+        module system_color_light__text {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 305; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 307 18 ]
+                %tmp.36 = getm $.Toybox.Graphics;
+                %tmp.37 = getv %tmp.36 :COLOR_TRANSPARENT;
+                putv self :background %tmp.37;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 306; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 307; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 310; ]
+        module system_input__action_menu {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 310; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 311 18 ]
+                %tmp.38 = getm $.Toybox.WatchUi;
+                %tmp.39 = getv %tmp.38 :KEY_MENU;
+                putv self :button %tmp.39;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 311; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 314; ]
+        module system_icon_dark__hint_button_middle_top {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 314; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 315; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 318; ]
+        module system_icon_light__save {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 318; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 319; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__save.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 320; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 321; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 322; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 325; ]
+        module system_icon_light__check {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 325; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 326; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__check.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 327; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 328; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 329; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 332; ]
+        module prompt_color_light__body {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 332; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 334 18 ]
+                %tmp.40 = getm $.Toybox.Graphics;
+                %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
+                putv self :background %tmp.41;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 333; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 334; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 337; ]
+        module system_loc__subwindow {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 337; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 338; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 341; ]
+        module confirmation_input__reject {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 341; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 342 18 ]
+                %tmp.42 = getm $.Toybox.WatchUi;
+                %tmp.43 = getv %tmp.42 :KEY_ESC;
+                putv self :button %tmp.43;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 342; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 345; ]
+        module system_icon_light__warning {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 345; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 346; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__warning.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 347; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 348; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 349; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 352; ]
+        module system_icon_light__revert {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 352; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 353; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__revert.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 354; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 355; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 356; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 359; ]
+        module system_size__subwindow {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 359; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 360; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 363; ]
+        module confirmation_color_light__body {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 363; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 365 18 ]
+                %tmp.44 = getm $.Toybox.Graphics;
+                %tmp.45 = getv %tmp.44 :COLOR_TRANSPARENT;
+                putv self :background %tmp.45;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 364; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 365; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 368; ]
+        module activity_color_light__background {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 368; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 369; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 370; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 373; ]
+        module system_icon_dark__check {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 373; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 374; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__check.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 376; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 377; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 380; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 380; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 382; @position = 18; ]
+            const y as Number = 30;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 383; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 384; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 387; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 387; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 388; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 389; @position = 18; ]
+            const y as Number = 249;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 390; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 391; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 394; ]
+        module system_size__screen {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 394; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 395; @position = 18; ]
+            const width as Number = 246;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 396; @position = 18; ]
+            const height as Number = 322;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 399; ]
+        module system_color_light__background {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 399; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 401; @position = 18; ]
+            const background as Number = 0xFFFFFF;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 404; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 404; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 405; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 408; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 408; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            const x as Number = 195;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            const y as Number = 30;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 411; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 412; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 415; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 415; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 416; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 419; ]
+        module system_icon_dark__revert {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 419; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 420; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__revert.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 421; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 422; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 423; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 426; ]
+        module activity_color_dark__text {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 426; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 428 18 ]
+                %tmp.46 = getm $.Toybox.Graphics;
+                %tmp.47 = getv %tmp.46 :COLOR_TRANSPARENT;
+                putv self :background %tmp.47;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 427; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 428; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 431; ]
+        module confirmation_input__keep {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 431; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 432 18 ]
+                %tmp.48 = getm $.Toybox.WatchUi;
+                %tmp.49 = getv %tmp.48 :KEY_ENTER;
+                putv self :button %tmp.49;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 432; @position = 18; ]
+            const button;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 435; ]
+        module prompt_loc__body_with_title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 435; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 436; @position = 18; ]
+            const x as Number = 8;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 437; @position = 18; ]
+            const y as Number = 93;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 440; ]
+        module system_icon_dark__question {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 440; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 441; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__question.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 442; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 443; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 444; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 447; ]
+        module system_icon_light__discard {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 447; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 448; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__discard.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 449; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 450; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 454; ]
+        module device_info {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 454; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 456 18 ]
+                %tmp.50 = getm $.Toybox.System;
+                %tmp.51 = getv %tmp.50 :SCREEN_SHAPE_RECTANGLE;
+                putv self :screenShape %tmp.51;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 455; @position = 18; ]
+            const screenWidth as Number = 246;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 456; @position = 18; ]
+            const screenShape;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 457; @position = 18; ]
+            const hasNightMode as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 458; @position = 18; ]
+            const screenHeight as Number = 322;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 459; @position = 18; ]
+            const hasTouchScreen as Boolean = false;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 462; ]
+        module system_icon_dark__search {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 462; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 463; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__search.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 464; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 465; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 466; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 469; ]
+        module activity_color_light__text {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 471 18 ]
+                %tmp.52 = getm $.Toybox.Graphics;
+                %tmp.53 = getv %tmp.52 :COLOR_TRANSPARENT;
+                putv self :background %tmp.53;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 470; @position = 18; ]
+            const color as Number = 0x000000;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 471; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 474; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 474; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 475; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\confirmation_icon__hint_completion.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 476; @position = 18; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 477; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 478; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 481; ]
+        module system_icon_dark__save {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 482; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__save.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 483; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 484; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 485; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 488; ]
+        module prompt_font__body_no_title {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 488; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 489 18 ]
+                %tmp.54 = getm $.Toybox.Graphics;
+                %tmp.55 = getv %tmp.54 :TEXT_JUSTIFY_CENTER;
+                %tmp.56 = getm $.Toybox.Graphics;
+                %tmp.57 = getv %tmp.56 :TEXT_JUSTIFY_VCENTER;
+                %tmp.58 = bitor %tmp.55 %tmp.57;
+                putv self :justification %tmp.58;
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 490 18 ]
+                %tmp.59 = getm $.Toybox.Graphics;
+                %tmp.60 = getv %tmp.59 :FONT_MEDIUM;
+                putv self :font %tmp.60;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 489; @position = 18; ]
+            const justification;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 490; @position = 18; ]
+            const font;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 493; ]
+        module system_icon_light__search {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 493; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 494; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_light__search.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 495; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 496; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 497; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 500; ]
+        module prompt_size__title_icon {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 500; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 501; @position = 18; ]
+            const scaleX as Number = 55;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 502; @position = 18; ]
+            const scaleY as Number = 55;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 503; @position = 18; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 506; ]
+        module system_icon_dark__warning {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 506; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 507; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_dark__warning.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 508; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 509; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 510; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 513; ]
+        module prompt_loc__title_icon {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 513; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 514; @position = 18; ]
+            const x as Number = 123;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 515; @position = 18; ]
+            const y as Number = 44;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 516; @position = 18; ]
+            const horizontalJustification as String = "center";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 517; @position = 18; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 520; ]
+        module prompt_color_dark__body {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 520; ]
+            <init> {
+[ "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen" 522 18 ]
+                %tmp.61 = getm $.Toybox.Graphics;
+                %tmp.62 = getv %tmp.61 :COLOR_TRANSPARENT;
+                putv self :background %tmp.62;
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 521; @position = 18; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 522; @position = 18; ]
+            const background;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 525; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 525; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 526; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\confirmation_icon__hint_back.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 527; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 528; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 529; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 532; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 532; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 533; @position = 18; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 536; ]
+        module confirmation_size__body {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 536; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 537; @position = 18; ]
+            const width as Number = 246;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 538; @position = 18; ]
+            const height as Number = 236;
+        }
+        [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 541; ]
+        module system_icon_positive__check {
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 542; @position = 18; ]
+            const filename as String = "C:\\Users\\admin\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge840\\system_icon_positive__check.svg";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 543; @position = 18; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 544; @position = 18; ]
+            const dithering as String = "none";
+            [ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 545; @position = 18; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
+}
+[ @file = "C:\Users\admin\OneDrive - kyndryl\Patrick_Renard_Private_Box\VisualStudioCode\data\Garmin-CIQ\DF_TorqueAVG\bin\gen\006-B4062-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

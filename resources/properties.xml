@@ -1,13 +1,18 @@
 <resources>
 	<properties>
+		<property id="App_Version" type="string">0.00-00</property>
 	    <property id="AVG_Duration" type="number">3</property>
 	</properties>
 
 	<strings>
+	    <string id="App_Version_Title">Application Version</string>
 	    <string id="AVG_Duration_Title">AVG Duration</string>
 	</strings>
 	
 	<settings>
+	    <setting propertyKey="@Properties.App_Version" title="@Strings.App_Version_Title">
+    	    <settingConfig type="alphaNumeric" readonly="true" />
+    	</setting>
 		<setting propertyKey="@Properties.AVG_Duration" title="@Strings.AVG_Duration_Title">
 	        <settingConfig type="numeric" min="1" max="3600" />
 	    </setting>

@@ -8,6 +8,8 @@
 
 using Toybox.Application as App;
 
+var AppVersion="1.07-03";
+
 class DF_TorqueAVGApp extends App.AppBase
 {
     function initialize()
@@ -28,6 +30,10 @@ class DF_TorqueAVGApp extends App.AppBase
     //! Return the initial view of your application here
     function getInitialView()
     {
+
+		System.println("AppVersion = " + AppVersion);
+		setProperty("App_Version", AppVersion);
+
 		var Args = new [1];
 
 		Args[0] = readPropertyKeyInt("AVG_Duration",3);
